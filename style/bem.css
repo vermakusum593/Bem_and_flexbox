@@ -1,0 +1,173 @@
+/* styles.css */
+.container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 200px;
+    background-color: red;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;  
+}
+
+.small-container {
+    width: 80%; /* Adjust the width as needed */
+    margin: 10px;
+    padding: 50px;
+    background-color: white;
+    border: 1px solid #333;
+    display: inline-block; /* Display inline to have multiple containers on the same line */
+    vertical-align: middle ;  /* Align containers properly */
+}
+
+.small-container1 {
+    width: 50%;
+    margin: 10px;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #333;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.small-container2 {
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap; /* Prevents wrapping to keep items in sone line */
+    gap: 10px; /* Adds space between flex items */
+    padding: 10px;
+    background-color: blue;
+    align-items: flex-end;
+    margin-right: 10px;
+
+ 
+}
+
+.small-container3 {
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap; /* Prevents wrapping to keep items in sone line */
+    gap: 10px; /* Adds space between flex items */
+    padding: 10px;
+    background-color: blue;
+    align-items: stretch;
+   justify-content: center;
+
+ 
+}
+
+.small-container4 {
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap; /* Prevents wrapping to keep items in sone line */
+    gap: 10px; /* Adds space between flex items */
+    padding: 25px;
+    background-color: blue;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+
+ 
+}
+
+.small-container5 {
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap; /* Prevents wrapping to keep items in sone line */
+    gap: 10px; /* Adds space between flex items */
+    padding: 10px;
+    background-color: blue;
+   justify-content: space-evenly;
+   
+ 
+}
+
+.small-container6 {
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap; /* Prevents wrapping to keep items in sone line */
+    gap: 10px; /* Adds space between flex items */
+    padding: 10px;
+    background-color: blue;
+    
+   justify-content: space-evenly;
+   margin-right: 10px;
+
+   
+ 
+}
+
+.small-container7 {
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap; /* Prevents wrapping to keep items in sone line */
+    gap: 10px; /* Adds space between flex items */
+    padding: 10px;
+    background-color: blue;
+   justify-content: space-evenly;
+   align-items: center;
+   
+ 
+}
+
+
+.flex-container-left {
+    justify-content: flex-start; /* Aligns items to the left */
+}
+
+.flex-container-right {
+    justify-content: right; /* Aligns items to the left */
+}
+
+.flex-container-right {
+    justify-content: center; /* Aligns items to the left */
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+    margin-bottom: 20px;
+}
+
+.box2 {
+    width: 50px;
+    height: 80px;
+    background-color: #8a1519;
+    margin: 1px;
+   
+    
+  }
+
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #8a1519;
+    margin: 1px;
+   
+    
+  }
+  .box5 {
+    width: 50px;
+    height: 50px;
+    background-color: #8a1519;
+    margin: 1px;
+    align-self: flex-end;
+    
+  }
+  .box6 {
+    width: 50px;
+    height: 50px;
+    background-color: #8a1519;
+    margin: 1px;
+   align-self: flex-end;
+   
+  }
+
+  .box7 {
+    width: 80px;
+    height: 50px;
+    background-color: #8a1519;
+    margin: 1px;
+   
+    
+  }
